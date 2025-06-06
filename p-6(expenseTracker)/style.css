@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+
+header{
+  padding: 10px;
+}
+
+#expense-form{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input{
+  display: inline-block;
+  height: 20px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: 0.5px solid #9c9999;
+}
+
+button{
+  padding: 5px 10px;
+  
+}

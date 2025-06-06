@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  
+}
+
+
+header {
+ text-align: center;
+ margin: 30px;
+}
+
+.stopwatch{
+  text-align: center;
+  margin: 20px 0;
+  box-shadow: 5px 5px 10px black;
+  padding: 20px 0;
+}
+
+.sw-header{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  align-items: center;
+  gap: 30px;
+}
+.sw-header input{
+  display: inline-block;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 0;
+  
+}
+
+.colon{
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+
+
+.timer {
+  text-align: center;
+  background-color: #aaa;
+  padding: 30px;
+  box-shadow: 5px 5px 10px black;
+  margin: 10px 0;
+}
+
+.timer h1{
+  margin: 20px 0;
+}
+
+.timer-body{
+  
+  color: black;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.timer-body h1 {
+  
+}
+
+button{
+  background-color: black;
+  color: white;
+  
+  border-radius: 50%;
+  border: none;
+  box-shadow: 5px 5px 10px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding: 0;
+  box-shadow: 5px 5px 10px black;
+}
+
+button:hover{
+
+  background-color: rgba(0, 0, 0, 0.623);
+  font-weight: bold;
+}
+

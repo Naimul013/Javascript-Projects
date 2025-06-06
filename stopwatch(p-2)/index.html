@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>
+      Stopwatch and timer app
+    </h1>
+  </header>
+  <div class="stopwatch">
+
+    <div class="sw-header">
+
+      <div class="hour">
+        <h1>Hour</h1>
+        <input id = "sw-input-h" type="number" placeholder="00" min="0" max="23" >
+      </div>
+
+      <span class="colon">:</span>
+
+      <div class="minute">
+        <h1>Minute</h1><input id = "sw-input-m" type="number" placeholder="00" min="0" max="59">
+      </div>
+
+      <span class="colon">:</span>
+
+      <div class="second">
+        <h1>Second</h1><input id = "sw-input-s" type="number" placeholder="00" min="0" max="59">
+      </div>
+      
+    </div>
+    <div class="sw-btns">
+      <button id="sw-reset-btn">Reset</button>
+      <button id="sw-pause-btn">Pause</button>
+      <button id="sw-start-btn">Start</button>
+    </div>
+    <div class="sw-body">
+
+    </div>
+  </div>
+
+  <div class="timer">
+    <h1>Stopwatch</h1>
+    
+    <div class="timer-body">
+      <div class="timer-h">
+        <h1 class="timer-h-h1"></h1>
+        <p>Hour</p>
+      </div>
+      <div class="timer-m">
+        <h1 class="timer-m-h1"></h1>
+        <p>Minute</p>
+      </div>
+      <div class="timer-s">
+        <h1 class="timer-s-h1"></h1>
+        <p>Second</p>
+      </div>
+      <div class="timer-ms">
+        <h1 class="timer-ms-h1"></h1>
+        <p>Milisecond</p>
+      </div>
+    </div>
+
+    <div class="timer-header">
+      <button id="timer-reset-btn">Reset</button>
+      <button id="timer-start-btn">Start</button>
+      <button id="timer-stop-btn">Stop</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
