@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ece7e7;
+}
+
+header {
+  padding: 20px;
+}
+.container{
+  text-align: center;
+}
+
+.forms{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.forms input{
+  display: inline-block;
+  padding: 5x 10px;
+  height: 25px;
+  border: 0.5px solid rgba(0, 0, 0, 0.562);
+  box-shadow: 5px 5px 10px rgb(31, 30, 30);
+}
+
+button{
+  padding: 5px 10px;
+}
