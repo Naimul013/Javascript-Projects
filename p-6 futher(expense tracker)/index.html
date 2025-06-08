@@ -10,22 +10,50 @@
   <header>
     <h1>Personal Expense Tracker</h1>
   </header>
+  
+  <!--Current month-->
+  <div class="current-month">
+    <p>Current Month</p>
+    <p>Budget for the month</p>
+  </div>
+
+  <!--Visual-->
+  <div class="visual">
+    <h1>Visual</h1>
+  </div>
 
   <!--main container-->
   <div class="container">
 
-    <!--inputs and button-->
-    <div class="forms">
-      <input type="text" id="title" placeholder="Title">
-      <input type="number" id="amount" placeholder="Amount" min="0">
-      <input type="date" id="date" placeholder="Enter the date">
-      <button type="submit" id="submit">Add</button>
+    <!--income section-->
+    <div class="income-section">
+      <div class="income-header">
+        <h1>Income</h1>
+      </div>
+
+      <div class="income-date">
+        <input type="date" id="income-date" placeholder="Enter the date">
+        <button type="submit" id="income-submit">Add</button>
+      </div>
+
+      <div class="income-list">
+        <ul></ul>
+      </div>
     </div>
-    
-    <!--Listing-->
-    <div class="list">
-      <ul id="date-list"></ul>
-    </div>
+
+    <!--expense section-->
+    <div class="expense-section">
+      <div class="expense-header">
+        <h1>Expenses</h1>
+      </div>
+      <div class="expense-date">
+        <input type="date" id="expense-date" placeholder="Enter the date">
+        <button type="submit" id="expense-submit">Add</button>
+      </div>
+      <div class="expense-list">
+        <ul></ul>
+      </div>
+    </div>  
   </div>
 
   
