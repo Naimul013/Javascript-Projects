@@ -5,18 +5,97 @@
 }
 
 body{
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
   background-color: #ece7e7;
   font-family: sans-serif;
+  text-align: center;
 }
 
 header {
   padding: 20px;
 }
+/**main container**/
+
 .container{
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 20px 10px;
+  gap: 10px;
+  
+}
+
+/**income section **/
+
+.income-section{
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0;
+}
+
+.income-date,.expense-date{
+  margin: 10px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#income-date{
+  background-color: green;
+}
+
+#expense-date{
+  background-color: red;
+}
+
+#expense-date,#income-date{
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  padding: 5px;
+  box-shadow: 3px 3px 5px black;
+  transition: transform 0.3s ease;
+}
+
+#expense-date:hover,
+#income-date:hover{
+  transform: scale(1.02);
+}
+
+#income-submit,#expense-submit{
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  box-shadow: 3px 3px 5px black;
+
+}
+
+#income-submit{
+  background-color: rgb(3, 97, 3);
+  
+}
+
+#expense-submit{
+  background-color: rgb(199, 10, 10);
+}
+
+
+#income-submit:hover{
+  background-color: green;
+}
+#expense-submit:hover{
+  background-color: red;
+}
+
+
+
+
+.expense-section{
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 0;
 }
 
 .forms{
@@ -51,3 +130,4 @@ button{
   border-radius: 10px;
   font-weight: bolder;
 }
+
